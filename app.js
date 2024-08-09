@@ -103,6 +103,6 @@ app.get('/:amount', async (req, res) => {
     });
 });
 
-app.listen(process.env.APP_PORT, () => {
-    console.log(`app running on port: ${process.env.APP_PORT}`);
+app.listen(process.env.PORT, () => {
+    console.log(`app running on port: ${process.env.PORT}`);
 })
