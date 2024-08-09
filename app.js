@@ -53,7 +53,7 @@ const list = [
     { u: 'https://stocks.zerodha.com/stocks/rec-RECM', w: 0.03 },
 ]
 
-const blocker = (time = 5000) => new Promise((res) => {
+const blocker = (time = 250) => new Promise((res) => {
     setTimeout(() => {
         res(true);
     }, time);
